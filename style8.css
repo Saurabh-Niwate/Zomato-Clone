@@ -1,0 +1,1087 @@
+  *{
+    margin:0px;
+    font-family: system-ui;
+    box-sizing: content-box;
+  }
+  .mine{
+    max-width:68.75rem;
+  }
+  /* header */
+  .hero-section{
+    height:26.25rem;
+    width:100%;
+    position: relative;
+    
+  }
+  .hero-img{
+    height: 100%;
+    width:100%;
+    background-image:url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .center-panel{
+    position: absolute;
+    bottom: calc(50% -11.1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar{
+    height:4.375rem;
+    width: 100%;
+    display: flex;
+    max-width:100rem;
+    margin: 0px auto 0px auto;
+  }
+  .nav{
+    height: 4.375rem;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .nav-section1{
+    display: flex;
+    justify-content: center;
+    font-size:0.875rem;
+    width:20%;    
+  }
+  .menu{
+    display: none;
+    font-size: 1.5rem;
+  }
+  .nav-section1 a{
+    margin-left: 0.313rem;
+    text-decoration: none;
+    color:white;
+    font-weight: 350;
+  }
+  .nav-section2{
+    justify-content: flex-end;
+    font-size: 1.125rem;
+    width:76%;
+  }
+  
+  .nav-section2 a{
+    text-decoration: none;
+    color:white;
+    font-weight: 350;
+    margin-right: 2.5rem;
+  }
+  .user{
+    height: 1.875rem;
+    width: 1.875rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    justify-content: center;
+    display: none;
+    align-items: center;
+  }
+  .zomato-logo{
+    height:5rem;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top:2.063rem;  
+  }
+  .logo{
+    height: 3.75rem;
+    width: 18.75rem;
+    background-image: url('https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png');
+    background-size: 18.75rem 3.75rem;
+  }
+  .hero-line{
+    height: 1.875rem;
+    width:100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem;
+    text-align: center;
+  }
+  .hero-line h1{
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-family: system-ui;
+  }
+  .panel{
+    height:3.75rem;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.188rem
+   
+  }
+  .select-cities:focus{
+    outline: 0;
+  }
+  .location-search-Bar{
+    height:3.438rem;
+    width:74%;
+    max-width:49rem;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    
+  }
+  .location-box{
+    height:100%;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cities{
+    height:50%;
+    width:100%;
+    border-right:0.125rem solid rgba(220, 220, 220, 0.856);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.625rem;
+  }
+  .cities select{
+    height:100%;
+    width: 90%;
+    border: none;
+    margin-left: 0.625rem;
+    color:rgb(125, 124, 124)
+  }
+  .cities i{
+    color: #fe7e8b;
+    font-size: 1.25rem;
+  }
+  .search-bar-box{
+    height:100%;
+    display: flex;
+    align-items: center;
+  }
+  .search-icon-box{
+    height:76%;
+    width: 8%;
+    color: rgb(161, 161, 161);
+    text-align: center;
+    font-size: 1.563rem;
+    padding-top: 0.5rem;
+    margin: 0px 0.5rem 0px 0.5rem ;
+  } 
+  .search-input-box{
+    height: 100%;
+    color:rgb(138, 137, 137) ;
+    border: none;
+    font-size: 1.563rem;
+  }
+  .search-input-box input{
+    height: 95%;
+    width: 17.5rem;
+    border: none;
+    font-size: 1rem;
+    color: rgb(161, 161, 161);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+  } 
+  .search-input-box input:focus{
+    outline: 0;
+    color: black;
+  }
+  /* main .container1 */
+  .container1{
+    height: 22.5rem;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .catalogue{
+    height:68%;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box{
+    height:94%;
+    width: 32%;
+    border-radius:0.938rem ;
+    transition: all 0.2s ease;
+   
+  }
+  .box:hover{ 
+    
+    transform: scale(1.03);
+    border: 1px solid grey;
+    cursor: pointer;
+    
+  } 
+  .box-img{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius:0.938rem ;
+    border-top-right-radius: 0.938rem ;
+  }
+  .box-content{
+    height: 33%;
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-left:1px solid rgba(174, 174, 174, 0.856);
+    border-bottom: 1px solid rgba(174, 174, 174, 0.856);
+    border-right: 1px solid rgba(174, 174, 174, 0.856);
+    border-bottom-left-radius:0.938rem ;
+    border-bottom-right-radius:0.938rem;
+    color:rgb(137, 136, 136);
+    overflow:hidden;
+   
+  }
+  .box-content a{
+    text-decoration: none;
+    color:rgb(43, 42, 42) ;
+    font-size: 1.25rem;
+    margin:0.625rem 0px 0px 1.125rem;  
+    font-weight: 500;
+  }
+  .box-content span{
+    margin:0px 0px 0.75rem 1.125rem;
+    font-size: 1.063rem;
+    color:#4f4f4f ;
+    height: 1.8rem;
+    overflow: hidden;
+  }
+  /* main .container2 */
+  .container2{
+    height:28.125rem;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #all-collections{
+    display: none;
+    color:#fe7e8b;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 1px;
+  }
+  .collection{
+    height:94%;
+    width:100%;
+    font-size: 1.125rem;
+    color:rgb(137, 136, 136);
+  }
+  .collection h2{
+    font-size: 2.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color:rgb(43, 42, 42)
+  }
+  .mumbai-collection{
+    height:1.125rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.875rem;
+  }
+  .mumbai-collection a{
+    color:#fe7e8b;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 1px;
+  }
+  .places-variety{
+    height:20.625rem;
+    width:100%;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .place{
+    height: 96%;
+    width:24.4%;
+    border-radius: 0.5rem; 
+  }
+  .place-img{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:20.625rem 19.813rem;
+    background-position: center;
+    border-radius:0.5rem;
+    color:#e7e7e8;
+  }
+  .place-tag{
+    height: 100%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    border-radius: 0.5rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%)
+  }
+  .tagline{
+    font-size: 1.25rem;
+    height:10%;
+    width:100%;
+    margin:14.375rem 0px -2.063rem 0.875rem;
+    overflow: hidden;
+  }
+  .direct-link{
+    font-size: 1.125rem;
+    height: 10%;
+    width: 100%;
+    margin:0.5rem 0px 0px 0.938rem;
+  }
+  /* main .container3 */
+  .container3{
+    height:35.938rem;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+  }
+  .localities{
+    height: 75%;
+    width:100%;
+  }   
+  .heading{    
+    font-size:2.5rem;
+    color: #414141;
+    margin-bottom: 2.5rem;
+  }
+  .heading span{
+    font-weight: 600;
+  }
+  .mumbai-local{
+    height: 20.938rem;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .local{
+    height: 5rem;
+    width: 32%;
+    background-color: white;
+    border: 1px solid #bfbdbdc0;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+  }
+  .local:hover{
+    box-shadow:3px 3px 3px 3px rgba(230, 229, 229, 0.5) ;
+  }
+  .localName{
+    height:60%;
+    width:100%;
+    display: flex;
+  }
+  .name1{
+    height:100%;
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .stationName{
+    height:50%;
+    width:100%;
+    font-size:1.375rem;
+    font-weight: 400;
+    margin-left: 0.938rem;
+    overflow: hidden;
+  }
+  .stations{
+    height:50%;
+    width: 100%;
+    font-size: 1rem;
+    color:#797a7a;
+    margin: 0.5rem 0px 0px 0.938rem;
+  }
+  .toward{
+    height: 100%;
+    width:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.938rem
+  }
+  /* main .container4 */
+  .container4{
+    height:30rem ;
+    width:100%;
+    background-color:rgb(255, 251, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .appInfo{
+    height:80%;
+    width:70%;
+    display: flex;
+  }
+  .app-img{
+    background-image: url('https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100%;
+    width:40%;
+    background-position: center;
+  }
+  .app-login{
+    height:100%;
+    width:60%;
+  }
+  .app-login h1{
+    font-size:2.813rem ;
+    font-weight: 500;
+    width: 100%;
+  }
+  .app-login p{
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+    color: #757f80;
+  }
+  .contact-info{
+    display: block;
+    margin-top: 1.875rem;
+  }
+  .radio-group {
+    display: flex;
+    align-items: center;
+    margin-right: 1.25rem;
+  }
+  .radio-group input[type="radio"] {
+    display: none;
+  }
+  .radio-group label {
+    margin: 0 0.625rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 1.563rem;
+    font-size: 1.125rem;
+  }
+  .radio-group label::before {
+    content: '';
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 2px solid #f04f5f;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .radio-group input[type="radio"]:checked + label::before {
+    background-color: #fff;
+  }
+  .radio-group input[type="radio"]:checked + label::after {
+    content: '';
+    width: 0.875rem;
+    height: 0.875rem;
+    background-color:#f04f5f ;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .input-group {
+    margin:1.563rem 1.25rem 0px 0px;
+    display: flex;
+  }
+  .input-group input {
+    color:#b4b7bd;
+    width: 17.5rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.125rem;
+  }
+  .input-group button{
+    margin-left: 0.625rem;
+    background-color:#f04f5f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .input-group button:hover {
+    background-color: #ad1c2b;
+  }
+  .play-appStore{
+    height:6rem;
+    width:100%;
+    margin-top: 2.188rem;
+  }
+  .play-appStore p{
+    height:35%;
+    width: 100%;
+    color: #a79e9c;
+    font-size:1rem
+  }
+  .appstore-img{
+    display: flex;
+    height: 55%;
+    width:19.875rem;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .store{
+    width:46%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 80%;
+  }
+  /* main .container5 */
+  .container5{
+    height:30.625rem;
+    width: 100%;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .explore-option{
+    height:85%;
+    width:87%;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .explore-option p{
+    font-size: 2.063rem;
+    margin-bottom: 1.25rem;
+  }
+  .option{
+    height: 4.063rem;
+    width:100%;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.375rem;
+    padding: 0px 1.25rem 0px 1.25rem;
+    border:1px solid rgb(161, 161, 161);
+  }
+  /* footer */
+  footer{
+    height: 30rem;
+    width: 100%;
+  }
+  /* .foot-panel1 */
+  .foot-panel1{
+    height: 80%;
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+  }
+  
+  .Info-About-Us{
+    height: 85%;
+    width: 87%;
+    border-bottom:1.5px solid rgb(161, 161, 161);
+  }
+  .foot{
+    height: 2.063rem;
+    width: 100%;
+    margin-bottom: 2.875rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot-img{
+    height:2.063rem;
+    width: 8.75rem;
+    background-size: 8.125rem 1.875rem;
+    background-repeat: no-repeat;
+  }
+  .lang-country{
+    height: 100%;
+    width:15.25rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .we{
+    height:100%;
+    width: 44%;
+    display: flex;
+    border-radius: 5px;
+    border: 1.5px solid rgb(161, 161, 161);
+  }
+  .country{
+    background-color:#f8f8f8;
+  }
+  .country-flag{
+    height:100%;
+    width: 25%;
+    background-size: 1.75rem 1.25rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    padding: 0px 5px 0px 5px;
+  }
+  .country select{
+    height: 100%;
+    width: 62%;
+    font-size: 1.125rem;
+    text-align: center;
+    border: none;
+    background-color: #f8f8f8;
+  }
+  .lang select{
+    height: 100%;
+    width: 78%;
+    border: none;
+    font-size: 1.125rem;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  .lang{
+    background-color: #f8f8f8;
+  }
+  .lang i{
+    padding:8px 0px 0px 5px; 
+  }
+  .links{
+    display:flex;
+    justify-content: space-between;
+  }
+  .links ul{
+    padding-inline-start: 0px;
+    width: 11.875rem;
+  }
+  .links p{
+    font-weight: 600;
+  }
+  .links a{
+    display: block;
+    margin-top: 0.5rem;
+    font-size:0.875rem ;
+    color: #8f9093;
+    text-decoration: none;
+    line-height: 1.25rem;
+  }
+  .links a:hover{
+    color:#414141
+  }
+  .links i{
+    font-size: 1.25rem;
+    color: black;
+    margin:8px 0px 0px 5px;
+  }
+  .app-location{
+    height: 5.5rem ;
+    width:8.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.563rem;
+  }
+  .app1{
+    height: 45%;
+    width: 100%;
+    background-image: url('https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+  }
+  .space{
+    height: 10%;
+    width: 100%;
+  }
+  .app2{
+    height: 45%;
+    width: 100%;
+    background-image: url('https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+  }
+  /* .foot-panel2 */
+  .foot-panel2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8f9093;
+    height: 20%;
+    width: 100%;
+    background-color: #f8f8f8;
+  }
+  .Privacy-Policies{
+    height: 95%;
+    width: 87%;
+    display: flex;
+    align-items: center;
+  }
+  /* media-queries */
+ @media(max-width:500px) {
+  .hero-section{
+    height:26.875rem;
+    width: 100%;
+  }
+  .nav-section1{
+    margin: 0px;
+    width: 38%;
+  }
+  .nav-section2{
+    width: 57%;
+  }
+  .user{
+    display: flex;
+    margin-left: 7rem;
+  }
+  .link{
+    display: none;
+  }
+  .center-panel{
+    margin-top: 2.5rem;
+  }
+  .zomato-logo{
+    height: 2.813rem;
+    width: 12.5rem;
+  }
+  .logo{
+    height: 2.063rem;
+    width: 8.125rem;
+    background-size: 8rem 2.063rem;
+    background-repeat: no-repeat;
+  }
+  .hero-line{
+    height: 3.8rem;
+    margin: 0.5rem;
+    width: 90%;
+  }
+  .hero-line h1{
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .panel{
+    margin-top: 0px;
+    height: 7.75rem;
+  }
+  .location-search-Bar{
+    height: 2.8rem;
+    width: 92%;
+    flex-wrap: wrap;
+    margin-bottom: 2.25rem;
+  }
+  .location-box{
+    width: 100%;
+  }
+  .search-bar-box{
+    height: 100%;
+    width: 100%;
+    margin-top:0.875rem ;
+  }
+  .search-icon-box{
+    height: 100%;
+    width: 9%;
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding-top:0px ;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+  }
+  .search-input-box{
+    height: 100%;
+    width: 90%;
+  }
+  .search-input-box input{
+    width:99%;
+    height: 96%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .container1{
+    margin-bottom: 1.75rem;
+  }
+  .catalogue{
+    height: 90%;
+    width: 90%;
+  }
+  .box{
+    height: 40%;
+    width: 47%;
+  }
+  .box-content{
+    height: 42%;
+  }
+  .box-content a{
+    font-size: 0.80rem;
+    margin: 0.05rem 0px 0px 0.625rem;
+  }
+  .box-content span{
+    font-size: 0.59rem;
+    margin: 0px 0px 0.5rem 0.625rem;
+
+  }
+  .collection{
+    width: 87%;
+  }
+  .container2{
+    height: 35rem;
+  }
+  .collection h2{
+    font-size: 1.125rem;
+  }
+  .mumbai-collection{
+    height: 3rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+  }
+  .mumbai-collection a{
+    display: none;
+  }
+  .places-variety{
+    height: 28rem;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .place{
+    height: 48%;
+    width: 46%;
+  }
+  .tagline{
+    font-size: 0.875rem;
+    height: 8%;
+    margin-top: 8.6rem;
+    margin-left: 0.78rem;
+  }
+  .direct-link{
+    font-size: 0.9rem;
+    margin:1rem 0px 1rem 0.78rem;
+    height: 7%;
+  }
+  #all-collections{
+    display: block;
+    margin-top: 1rem;
+  }
+  .container3{
+    height: 67rem;
+    margin-top: 0px;
+  }
+  .localities{
+    height: 90%;
+    width: 87%;
+  }
+  .heading{
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+  }
+  .local{
+    width: 21.875rem;
+  }
+  .mumbai-local{
+    height: 54rem;
+  }
+  .stationName{
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .localName{
+    padding: 0px 10px 0px 10px;
+  }
+  .stations{
+    margin-top: 0px;
+  }
+  .app-img{
+    display: none;
+  }
+  .container4{
+    height: 27rem;
+  }
+  .appInfo{
+    width: 100%;
+  }
+  .app-login{
+    width: 100%;
+  }
+  .app-login h1{
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .app-login p{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .radio-group{
+    margin-left: 1rem;
+  }
+  .input-group{
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 1rem 1.5rem 1rem;
+  }
+  .input-group input{
+    width: 12.5rem;
+  }
+  .input-group button{
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .play-appStore{
+    margin-top: 0px;
+  }
+  .store{
+    width: 36%;
+    height: 100%;
+    background-size: contain;
+  }
+  .explore-option p{
+    font-size: 1.35rem;
+    margin-bottom: 0px
+  }
+  .option span{
+    font-size:1.1rem;
+    font-weight: 380;
+  }
+  .option i{
+    font-size: 1.2rem
+  }
+  footer{
+    height: 54.5rem;
+  }
+  .Info-About-Us{
+    height: 90%;
+  }
+  .foot{
+    height: 7rem;
+    flex-direction: column;
+  }
+  .foot-img{
+    height: 15rem;
+    width: 60%;
+    background-size: 9rem 2rem;
+  }
+  .lang i{
+    padding-top: 11px;
+  }
+  .links{
+    height: 29.375rem;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .links ul{
+    width: 8.875rem;
+  }
+  .app-location{
+    display: none;
+  }
+  .appstore-img{
+    width: 100%;
+    justify-content: space-evenly;
+  }
+ }
+ @media(max-width:768px) and (min-width:500px){
+  .menu{
+    display: flex;
+  }
+  .link{
+    display: none;
+  }
+  .win{
+    display: none;
+  }
+  .nav-section1{
+   width: 14%;
+  }
+  .box{
+    max-width: 32%;
+  }
+  .box-content a{
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .box-content span{
+    font-size: 0.70rem;
+  }
+  .catalogue{
+    width: 87%;
+  }
+  .collection{
+    width: 87%;
+  }
+  .local{
+    width: 32%;
+  }
+  .localities{
+    width: 87%;
+  }
+  .heading{
+    text-align: center;
+  }
+  .appInfo{
+    height: 80%;
+    width: 80%;
+  }
+  .app-img{
+    background-size: 15.5rem 17.125rem;
+    width: 35%;
+    margin-right: 10%;
+  }
+  .app-login{
+    width: 55%;
+  }
+  .app-login h1{
+    font-size: 1.875rem;
+    font-weight:400;
+  }
+  footer{
+    height: 40rem;
+  }
+  .foot-img{
+    width: 8.25rem;
+  }
+  .links{
+    flex-wrap: wrap;
+  }
+  .links ul{
+    width: 10rem;
+  }
+  #cool{
+    display: none;
+  }
+  .input-group{
+    display:flex ;
+    height: 3rem;
+  }
+  .appstore-img{
+    width: 16.875rem;
+  }
+  .store{
+    background-size: contain;
+  }
+  .input-group button{
+    padding: 0px;
+  }
+  .input-group input{
+    width: 10.5rem;
+  }
+ }
